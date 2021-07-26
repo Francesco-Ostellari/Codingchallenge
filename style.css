@@ -1,0 +1,74 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.trasparenza {
+  width: 60%;
+  background-color: rgb(26,26,26,0.7);
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 30px;
+  padding: 5%;
+}
+
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+header {
+  text-align: center;
+}
+
+header > img {
+  width: 25%;
+}
+
+h1 {
+  color: lime;
+  text-align: center;
+  font-size: 40px;
+}
+
+nav {
+  background-color: lime;
+  padding: 15px;
+  text-align: center;
+}
+
+.Monopattino {
+  font-size: 27px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.paragrafo::before {
+  content:"\27FC";
+}
+
+.scelta-monopattino {
+  margin-top: 10px;
+}
+.stato-carica1, .stato-carica2, .stato-carica3 {
+  border-radius: 5px;
+  height: 25px;
+}
+
+.stato-carica1 {
+  background-color:#ebb55f;
+  width: 300px;
+}
+.stato-carica2 {
+  background-color:#00d221;
+  width: 500px;
+}
+
+.stato-carica3 {
+  background-color:#b53838;
+  width: 150px;
+}
